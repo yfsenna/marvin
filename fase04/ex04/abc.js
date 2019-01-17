@@ -1,9 +1,4 @@
-function abc(letra){
-    letra = letra.slice(0,3).toLowerCase()
-    
-    if (letra === "abc") {
-        return true;
-    } else {
-        return false;
-    }
+function abc(str) {
+    var char = str.charAt(0).toLowerCase();
+    return char >= 'a' && char <= 'c';
 }
