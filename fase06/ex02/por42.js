@@ -4,7 +4,8 @@ function por42(x, y) {
     return x;
     }
     else{ 
-        return ("Não encontrado");
+        console.log ("Não encontrado")
+        return false;
 
 }
 }
