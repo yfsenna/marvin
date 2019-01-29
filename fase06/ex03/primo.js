@@ -9,9 +9,9 @@ function primo(x){
         y.push(i);
     }
     if (y.length>2)
-    return "Não";
-    else if (x==1)
-    return "Não";
+    return "NÃ£o";
+    else if (x===1 || x===0)
+    return "NÃ£o";
     else
     return "Sim";
 }
