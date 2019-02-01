@@ -9,7 +9,7 @@ function precoMedio(...args){
         }
     y+=args[i].preco
     }
-   console.log("O produto mais caro se chama \""+max+"\" ")
+   console.log("O produto mais caro se chama \""+max+"\"")
     return y/args.length 
 }
 
